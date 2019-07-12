@@ -115,4 +115,18 @@ public class NumberGameTest {
         assertEquals(expectd,actual);
 
     }
+
+    @Test
+    public void should_return_FizzBuzzWhizz_when_call_number_given_105(){
+
+        //given
+        String expectd="FizzBuzzWhizz";
+
+        //when
+        String actual=NumberGame.number(105);
+
+        //then
+        assertEquals(expectd,actual);
+
+    }
 }
