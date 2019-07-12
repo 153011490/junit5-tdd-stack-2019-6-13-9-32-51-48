@@ -8,6 +8,7 @@ public class NumberGame {
             return "Fizz";
         }
         if(i%5==0){
+            if(i%7==0)return "BuzzWhizz";
             return "Buzz";
         }
         if(i%7==0){

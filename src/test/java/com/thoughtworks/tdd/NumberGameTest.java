@@ -101,4 +101,18 @@ public class NumberGameTest {
         assertEquals(expectd,actual);
 
     }
+
+    @Test
+    public void should_return_BuzzWhizz_when_call_number_given_35(){
+
+        //given
+        String expectd="BuzzWhizz";
+
+        //when
+        String actual=NumberGame.number(35);
+
+        //then
+        assertEquals(expectd,actual);
+
+    }
 }
