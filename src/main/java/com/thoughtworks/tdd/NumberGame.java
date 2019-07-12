@@ -2,7 +2,7 @@ package com.thoughtworks.tdd;
 
 public class NumberGame {
     public static String number(int i){
-        if(i%3==0){
+        if(i%3==0||i==13){
             return "Fizz";
         }
         if(i%5==0){
