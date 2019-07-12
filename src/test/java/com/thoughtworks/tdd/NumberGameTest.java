@@ -87,4 +87,18 @@ public class NumberGameTest {
         assertEquals(expectd,actual);
 
     }
+
+    @Test
+    public void should_return_FizzWhizz_when_call_number_given_21(){
+
+        //given
+        String expectd="FizzWhizz";
+
+        //when
+        String actual=NumberGame.number(21);
+
+        //then
+        assertEquals(expectd,actual);
+
+    }
 }
